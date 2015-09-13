@@ -10,8 +10,8 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
     templateUrl: 'views/templates/about.html',
     controller: 'MainCtrl'
   })
-  .when('/projects', {
-    templateUrl: 'views/templates/projects.html',
+  .when('/portfolio', {
+    templateUrl: 'views/templates/portfolio.html',
     controller: 'MainCtrl'
   })
   .when('/contact', {
