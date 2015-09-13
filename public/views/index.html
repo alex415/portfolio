@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- bootstrap css cdn -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- custom styles -->
+  <link type="text/css" rel="stylesheet" href="styles/style.css">
+  <link type="text/css" rel="stylesheet" href="styles/nav.css">
+
+  <!-- angular cdn -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+
+  <!-- ng route -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.min.js"></script>
+
+  <!-- custom scripts -->
+  <script type="text/javascript" src="scripts/app.js"></script>
+
+  <title>Document</title>
+</head>
+<body ng-controller="MainCtrl">
+  
+  <!-- navbar -->
+  <div class="container">
+    <header class="main-header">
+      <a class="site-logo" href="/">
+        <img src="images/logo.png" alt="logo">
+      </a>
+      <ul class="nav">
+        <li><a href="/about">about</a></li>
+        <li><a href="/projects">projects</a></li>
+        <li><a href="/contact">contact</a></li>
+      </ul>
+    </header>
+  </div>
+  
+  <ng-view></ng-view>
+
+</body>
+</html>
