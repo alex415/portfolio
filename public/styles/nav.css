@@ -1,5 +1,11 @@
 /*======= Navbar Styling ============*/
 
+.nav-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 .main-header,
 .nav {
   display: flex;
@@ -8,6 +14,15 @@
 
 .main-header {
   padding-top: 2em;
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #222, #2d2d2d);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(circle, #222, #2d2d2d);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(circle, #222, #2d2d2d);
 }
 
 .site-logo {
@@ -21,25 +36,21 @@
 
 .nav a {
   display: block;
-  color: black;
+  color: #e9e9e9;
   font-size: 1.125em;
   font-weight: 300;
   text-align: center;
   padding: .4em;
-  border-bottom: 1px solid red;
 }
 
-.nav a:hover {
-  color blue;
-  border-bottom-color: green;
-}
-
-.nav > li > a:hover {
-  color: #797e83;
+.nav > li > a:active {
   background-color: transparent;
 }
 
-
+.nav > li > a:hover {
+  color: #FFF;
+  background-color: transparent;
+}
 
 /*======= Media Queries ============*/
 
@@ -53,8 +64,5 @@
   .nav {
     flex-direction: row;
     justify-content: flex-end;
-  }
-  .nav a {
-    border-bottom-color: transparent;
   }
 }

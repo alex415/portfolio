@@ -20,15 +20,21 @@
   <!-- custom scripts -->
   <script type="text/javascript" src="scripts/app.js"></script>
 
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
   <title>Document</title>
 </head>
 <body ng-controller="MainCtrl">
   
   <!-- navbar -->
-  <div class="container">
+  <div class="container nav-container">
     <header class="main-header">
       <a class="site-logo" href="/">
-        <img src="http://media.techonline.com/img/tmp/logo-placeholder.png" alt="logo">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-user  fa-stack-1x"></i>
+        </span>
       </a>
       <ul class="nav">
         <li><a href="/about">about</a></li>
