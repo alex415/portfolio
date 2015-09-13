@@ -1,7 +1,39 @@
+@font-face {
+  font-family: GothamCond-XLight;
+  src: url(fonts/GothamCond-XLight.otf);
+}
+
+@font-face {
+  font-family: GothamCond-Bold;
+  src: url(fonts/GothamCond-Bold.otf);
+}
+
 body {
   background-color: #FFF;
+  font-family: ;
 }
 
 .align-center {
   text-align: center;
+}
+
+#projects-container {
+  padding-top: 4em;
+}
+
+#contact-container {
+  padding-top: 3em;
+}
+
+#about-container {
+  padding-top: 2em;
+}
+
+#landing-container {
+  padding-top: 3em;
+}
+
+#landing-container > h1 {
+  font-family: ;
+  font-size: 6em;
 }
