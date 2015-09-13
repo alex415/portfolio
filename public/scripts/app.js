@@ -31,11 +31,3 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
 app.controller('MainCtrl', ['$scope', function ($scope) {
   
 }]);
-
-
-
-
-
-
-
-
