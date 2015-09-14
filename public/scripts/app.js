@@ -3,10 +3,6 @@ var app = angular.module('portfolio', ['ngRoute']);
 app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
   $routeProvider
   .when('/', {
-    templateUrl: 'views/templates/landing.html',
-    controller: 'MainCtrl'
-  })
-  .when('/about', {
     templateUrl: 'views/templates/about.html',
     controller: 'MainCtrl'
   })
