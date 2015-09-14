@@ -74,4 +74,14 @@ body {
   -o-transition:      color .55s;
 }
 
+#landing-body {
+  background: url(/images/bridge.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
 /*======= Icon Styling ============*/

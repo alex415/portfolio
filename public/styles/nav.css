@@ -30,7 +30,7 @@
 
 .navbar-text {
   font-family: GothamCond-Medium;
-  font-size: 42px;
+  font-size: 45px;
   color: #337ab7;
   letter-spacing: 1px;
   margin-top: 4px;
@@ -65,7 +65,8 @@ ul.nav {
 
 /*======= Media Queries ============*/
 
-@media (min-width: 769px) {
+/*769*/
+@media (min-width: 0px) {
   .main-header {
     justify-content: flex-end;
   }
