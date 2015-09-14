@@ -30,9 +30,10 @@
 
 .navbar-text {
   font-family: GothamCond-Medium;
-  font-size: 40px;
+  font-size: 42px;
+  color: #337ab7;
   letter-spacing: 1px;
-  margin-top: 0;
+  margin-top: 4px;
   margin-bottom: 0;
 }
 
