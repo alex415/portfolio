@@ -1,17 +1,25 @@
 @font-face {
-  font-family: GothamCond-XLight;
-  src: url(fonts/GothamCond-XLight.otf);
+  font-family: GothamCond-Medium;
+  src: url("/fonts/GothamCond-Medium.otf");
 }
 
 @font-face {
-  font-family: GothamCond-Bold;
-  src: url(fonts/GothamCond-Bold.otf);
+  font-family: GothamCond-Black;
+  src: url("/fonts/GothamCond-Black.otf");
+}
+
+*:focus {
+  outline: 0 !important;
 }
 
 body {
   background-color: #FFF;
   font-family: ;
 }
+
+/*.no-margin {
+  margin: 0 auto;
+}*/
 
 .align-center {
   text-align: center;
@@ -22,11 +30,11 @@ body {
 }
 
 #contact-container {
-  padding-top: 3em;
+  padding-top: 3.5em;
 }
 
 #about-container {
-  padding-top: 2em;
+  padding-top: 4em;
 }
 
 #landing-container {
@@ -40,7 +48,7 @@ body {
 
 #footer{
   position: fixed;
-  height: 80px;
+  height: 100px;
   width: 100%;
   background-color: #1E2222;
   bottom: 0px;
@@ -48,3 +56,23 @@ body {
   right: 0px;
   margin-bottom: 0px;
 }
+
+/*======= Button Styling ============*/
+
+.project-button {
+  color: #337ab7;
+  background-color: transparent;
+  border: 1px solid #337ab7;
+  border-radius:0;
+}
+
+.project-button:hover {
+  color: #ffffff;
+  background: rgba(45, 45, 45, 1);
+  -webkit-transition: color .55s;
+  -moz-transition:    color .55s;
+  -ms-transition:     color .55s;
+  -o-transition:      color .55s;
+}
+
+/*======= Icon Styling ============*/
