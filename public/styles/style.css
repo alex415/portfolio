@@ -52,12 +52,6 @@ body {
   background-color: #FFFFFF;
 }
 
-.project-thumbnail {
-  max-height: 445px;
-  max-width: 394px;
-  margin: auto;
-}
-
 .project-preview:hover {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
   transition: all .3s;
@@ -65,6 +59,19 @@ body {
   transition-duration: 0.3s;
   transition-timing-function: initial;
   transition-delay: initial;
+}
+
+.project-thumbnail {
+  max-height: 445px;
+  max-width: 394px;
+  margin: auto;
+}
+
+.dev-thumbnail {
+  height: 40px;
+  width: 40px;
+  display: inline-block !important;
+
 }
 
 /*======= Button Styling ============*/
