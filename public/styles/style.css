@@ -52,6 +52,12 @@ body {
   background-color: #FFFFFF;
 }
 
+.project-thumbnail {
+  max-height: 445px;
+  max-width: 394px;
+  margin: auto;
+}
+
 .project-preview:hover {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
   transition: all .3s;
