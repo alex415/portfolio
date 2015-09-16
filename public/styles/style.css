@@ -4,22 +4,27 @@
 }
 
 @font-face {
-  font-family: GothamCond-Black;
-  src: url("/fonts/GothamCond-Black.otf");
+  font-family: GothamCond-Book;
+  src: url("/fonts/GothamCond-Book.otf");
 }
 
 @font-face {
-  font-family: GothamNarrow-Light;
-  src: url("/fonts/GothamNarrow-Light.otf");
+  font-family: RefrigeratorDeluxe;
+  src: url("/fonts/RefrigeratorDeluxe.otf");
 }
 
 *:focus {
   outline: 0 !important;
 }
 
+.project-title {
+  font-size: 35px !important;
+}
+
 body {
   background-color: rgba(234, 234, 234, 1);
-  font-family: GothamNarrow-Light;
+  font-family: GothamCond-Book;
+  font-size: 25px;
 }
 
 .align-center {
@@ -62,8 +67,7 @@ body {
 }
 
 .project-thumbnail {
-  max-height: 445px;
-  max-width: 394px;
+  font-family: GothamCond-Book;
   margin: auto;
 }
 
@@ -75,7 +79,14 @@ body {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   background-color: #FFFFFF;
+}
 
+.skills {
+  height: 50px;
+  display: inline-block !important;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  background-color: #FFFFFF;
 }
 
 /*======= Button Styling ============*/
@@ -98,17 +109,6 @@ body {
 }
 
 .btn {
+  font-size: 20px;
   textolor: #337ab7;
 }
-
-#landing-body {
-  background: url(/images/bridge.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-}
-
-/*======= Icon Styling ============*/
