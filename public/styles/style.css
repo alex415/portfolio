@@ -21,6 +21,10 @@
   font-size: 35px !important;
 }
 
+.well {
+  background-color: #FFFFFF;
+}
+
 body {
   background-color: rgba(234, 234, 234, 1);
   font-family: GothamCond-Book;
@@ -83,10 +87,12 @@ body {
 
 .skills {
   height: 50px;
+  letter-spacing: 0px;
   display: inline-block !important;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
+  border-radius: 8px;
   background-color: #FFFFFF;
+
 }
 
 /*======= Button Styling ============*/
