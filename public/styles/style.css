@@ -18,7 +18,7 @@
 }
 
 .project-title {
-  font-size: 35px !important;
+  font-size: 28px !important;
 }
 
 .well {
@@ -114,6 +114,10 @@ body {
 }
 
 .btn {
-  font-size: 20px;
+  font-size: 17px;
   textolor: #337ab7;
+}
+
+.fa-stack {
+  font-size: 40px !important;
 }

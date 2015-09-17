@@ -17,6 +17,7 @@
 
 .site-logo {
   align-self: center;
+/*  text-align: center;*/
 }
 
 .nav a {
@@ -35,7 +36,7 @@
   font-size: 65px;
   color: #337ab7;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
   margin-top: 4px;
   margin-bottom: 0;
 }
